@@ -1,0 +1,34 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Environment and config
+.env
+*.env
+
+# Django database (if using SQLite)
+*.sqlite3
+db.sqlite3
+
+# Docker + Jenkins
+Dockerfile
+docker-compose.yml
+*.dblwr
+*.pid
+*.sock
+*.log
+
+# Git + editor files
+.git
+.gitignore
+*.swp
+*.bak
+*.tmp
+
+# Build & system directories
+data/
+media/
+staticfiles/
+node_modules/
